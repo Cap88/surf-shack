@@ -1,0 +1,70 @@
+$navColor: #176087;
+$globalBg: #fbfbff;
+$buttonColor: #01baef;
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./../images/photo-2.jpg");
+
+    /* Full height */
+    height: calc(100vh - 56px);
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: $navColor;
+    border-top-left-radius: 30px;
+
+    .navbar-nav {
+        font-weight: bold;
+    }
+
+    #nav-quote {
+        font-style: italic;
+
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+}
+
+.welcome-container {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    #welcome {
+        padding: 10px;
+        color: white;
+    }
+}
+
+.container {
+    padding-top: 15px;
+}
+
+.container {
+    p {
+        margin-top: 10px;
+        font-style: italic;
+    }
+
+    @media (min-width: 768px) {
+        #board-image, #breaks-image {
+            box-shadow: 10px 10px 5px #aaaaaa;
+        }
+    }
+}
+
+// add media query for not displaying navbar quote when collapsed

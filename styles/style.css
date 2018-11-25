@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0; }
+
+.bg {
+  /* The image used */
+  background-image: url("./../images/photo-2.jpg");
+  /* Full height */
+  height: calc(100vh - 56px);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+nav {
+  background-color: #176087;
+  border-top-left-radius: 30px; }
+  nav .navbar-nav {
+    font-weight: bold; }
+  nav #nav-quote {
+    font-style: italic; }
+    @media (max-width: 992px) {
+      nav #nav-quote {
+        display: none; } }
+
+.welcome-container {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .welcome-container #welcome {
+    padding: 10px;
+    color: white; }
+
+.container {
+  padding-top: 15px; }
+
+.container p {
+  margin-top: 10px;
+  font-style: italic; }
+@media (min-width: 768px) {
+  .container #board-image, .container #breaks-image {
+    box-shadow: 10px 10px 5px #aaaaaa; } }
+
+/*# sourceMappingURL=style.css.map */
