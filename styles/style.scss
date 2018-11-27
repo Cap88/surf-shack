@@ -5,6 +5,7 @@ $buttonColor: #01baef;
 body, html {
     height: 100%;
     margin: 0;
+    font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .bg {
@@ -38,7 +39,7 @@ nav {
 }
 
 .welcome-container {
-    position: fixed;
+    position: absolute;
     top: 50%;
     width: 100%;
     display: flex;
